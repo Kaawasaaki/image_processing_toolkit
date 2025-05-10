@@ -45,7 +45,7 @@ A command-line image processing toolkit with 30+ operations for educational use 
 
 1. **Clone the repo**  
    ```bash
-   git clone https://github.com/<your-username>/image_processing_toolkit.git
+   git clone https://github.com/Kaawasaaki/image_processing_toolkit.git
    cd image_processing_toolkit
 
 2. **Install dependencies**  
@@ -56,6 +56,3 @@ A command-line image processing toolkit with 30+ operations for educational use 
 2. **Run**  
    ```bash
    python main.py
-
-
-
