@@ -1,0 +1,8 @@
+# Numerical array handling
+numpy
+
+# OpenCV (with SIFT/SURF support)
+opencv-contrib-python
+
+# Image‐handling in the Tkinter GUI
+Pillow
