@@ -27,3 +27,8 @@ A command-line image processing toolkit with 30+ operations for educational use 
 2. **Install dependencies**:
    ```bash
    pip install opencv-python numpy scikit-image matplotlib
+
+
+**HOW TO RUN IT:**
+
+just run main.py , select the operation and image path
