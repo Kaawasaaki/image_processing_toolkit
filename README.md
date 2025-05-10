@@ -2,7 +2,10 @@
 
 A command-line image processing toolkit with 30+ operations for educational use and computer vision projects.
 
+
 ---
+
+
 
 ## 📝 Features
 
@@ -27,6 +30,7 @@ A command-line image processing toolkit with 30+ operations for educational use 
 - **Educational Focus**  
   Interactive menus, auto-generated sample images in `images/`, parameter tuning and instant feedback.
 
+
 ---
 
 ## 🚀 Prerequisites
@@ -36,21 +40,22 @@ A command-line image processing toolkit with 30+ operations for educational use 
 
 ---
 
+
 ## ⚙️ Installation
 
 1. **Clone the repo**  
    ```bash
    git clone https://github.com/<your-username>/image_processing_toolkit.git
-   cd image_processing_toolkit```
+   cd image_processing_toolkit
 
 2. **Install dependencies**  
    ```bash
    pip install --upgrade pip
-   pip install -r requirements.txt```
+   pip install -r requirements.txt
 
 2. **Run**  
    ```bash
-   python main.py```
+   python main.py
 
 
 
