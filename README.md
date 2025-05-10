@@ -59,6 +59,17 @@ A command-line image processing toolkit with 30+ operations for educational use 
 
    'python main.py'
 
+   1) choose the operation type and operation
+   2) Click on load images
+   3) navigate to the 'images' folder(to the same location you downloaded this project file), youll see a couple of png,jpg images
+   4) depending on the operation type, pick these
+  
+      morphology -> text_noise.jpg
+      features -> chessboard.png
+      contrast -> potrait.png
+      filters -> photo.jpg
+      transform -> shapes.png
+
    
 
    To run in GUI:
