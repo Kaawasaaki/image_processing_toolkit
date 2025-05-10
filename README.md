@@ -54,5 +54,15 @@ A command-line image processing toolkit with 30+ operations for educational use 
    pip install -r requirements.txt
 
 2. **Run**  
-   ```bash
-   python main.py
+
+   To run as CLI:
+
+   'python main.py'
+
+   
+
+   To run in GUI:
+
+   'python main.py --mode gui'
+
+   
