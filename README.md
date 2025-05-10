@@ -1,2 +1,29 @@
 # image_processing_toolkit
 college stuff
+
+# Image Processing CLI Toolkit
+
+![OpenCV](https://img.shields.io/badge/OpenCV-5.0-blue)
+![Python](https://img.shields.io/badge/Python-3.8+-green)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+A command-line image processing toolkit with 30+ operations for educational use and computer vision projects.
+
+## Features
+
+- **Morphological Operations**: Erosion, dilation, opening, closing, etc.
+- **Image Filters**: Thresholding, blurring, edge detection, histogram equalization
+- **Geometric Transforms**: Rotation, scaling, cropping, perspective warping
+- **Feature Detection**: Corner detection, blob detection, contours, keypoints
+- **Performance Metrics**: PSNR, SSIM, MSE with visual comparisons
+- **Educational Focus**: Side-by-side results with parameter tuning
+
+## Installation
+
+1. **Prerequisites**:
+   - Python 3.8+
+   - pip
+
+2. **Install dependencies**:
+   ```bash
+   pip install opencv-python numpy scikit-image matplotlib
