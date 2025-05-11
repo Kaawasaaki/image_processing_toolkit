@@ -178,4 +178,4 @@ class BaseImageProcessorGUI:
     
     def process_image(self):
         # This method should be overridden by subclasses
-        pass # No longer raising NotImplementedError
+        pass # No longer raising NotImp
