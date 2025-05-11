@@ -1,26 +1,22 @@
 import os
 import cv2
 import numpy as np
-# Assuming your core modules are structured as shown
 from core.morphology import apply_morph_operation
 from core.filters import apply_filter
-from core.transforms import apply_transform # Ensure this module exists and function is defined
+from core.transforms import apply_transform 
 from core.features import apply_feature_detection
 try:
     from core.invisibility import run_invisibility_menu
 except ImportError:
     print("Warning: core.invisibility module or run_invisibility_menu not found. Invisibility Cloak feature will be disabled in CLI.")
-    def run_invisibility_menu(): # Placeholder
+    def run_invisibility_menu():
         print("Invisibility Cloak feature is not available.")
 
 import argparse
-# This import is correct as main.py is in the root, and gui_launcher.py is in gui/
 from gui.gui_launcher import main as launch_gui
 
 
 def generate_sample_images():
-    # (generate_sample_images function as provided in your main.py)
-    # ... (omitted for brevity, use your existing function) ...
     os.makedirs("images", exist_ok=True)
 
     # 1. Morphology (text + noise)
