@@ -3,7 +3,7 @@ import os
 import numpy as np
 
 def apply_morph_operation(image_path, operation, kernel_size=3, iterations=1):
-    img = cv2.imread(image_path, 0)
+    img = cv2.imread(image_path, 0)  # Grayscale
     if img is None:
         raise FileNotFoundError(f"Image not found at path: {image_path}")
 
@@ -23,11 +23,13 @@ def apply_morph_operation(image_path, operation, kernel_size=3, iterations=1):
         raise ValueError("Invalid morphological operation.")
 
     processed = op_map[operation](img, kernel)
-    combined = np.hstack((img, processed))
+
+    # Convert grayscale to BGR for GUI display compatibility
+    processed_bgr = cv2.cvtColor(processed, cv2.COLOR_GRAY2BGR)
 
     output_dir = os.path.join("output")
     os.makedirs(output_dir, exist_ok=True)
     output_path = os.path.join(output_dir, f"{operation}_result.jpg")
-    cv2.imwrite(output_path, combined)
+    cv2.imwrite(output_path, processed_bgr)
 
     return output_path
